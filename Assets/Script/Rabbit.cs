@@ -11,7 +11,11 @@ public class Rabbit : MonoBehaviour
     public int money = 0;
 
     public List<int> inventory = new List<int>();
-    public int maxInventoty = 10;
+    public int maxInventory = 16;
+
+    public int[] statis =  new int[] {35, 40, 100, 25};
+    
+
 
     Vector3 mousePos;
 
@@ -25,6 +29,7 @@ public class Rabbit : MonoBehaviour
         exp = 0;
         maxExp = 10;
         money = 100034587;
+        maxInventory = 16;
     }
 
      void Update()
@@ -47,7 +52,7 @@ public class Rabbit : MonoBehaviour
     {
         if(exp >= maxExp)
         {
-            lv++;
+            lv++;   
             exp -= maxExp;
             maxExp = lv * 10;
         }

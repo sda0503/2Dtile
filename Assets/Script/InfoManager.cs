@@ -34,7 +34,6 @@ public class InfoManager : MonoBehaviour
 
     public void Work()
     {
-        Debug.Log("½ÇÇà");
         rabbit.money += rabbit.lv * 1000;
         rabbit.exp += 2;
         rabbit.CheckPlayerStatus();
@@ -52,6 +51,10 @@ public class InfoManager : MonoBehaviour
         textList[5].text = rabbit.maxExp.ToString();
         textList[6].text = GetCommaText(rabbit.money);
         textList[7].text = rabbit.inventory.Count.ToString();
-        textList[8].text = rabbit.maxInventoty.ToString();
+        textList[8].text = rabbit.maxInventory.ToString();
+        textList[9].text = rabbit.statis[0].ToString();
+        textList[10].text = rabbit.statis[1].ToString();
+        textList[11].text = rabbit.statis[2].ToString();
+        textList[12].text = rabbit.statis[3].ToString();
     }
 }

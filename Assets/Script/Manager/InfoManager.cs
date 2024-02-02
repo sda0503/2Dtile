@@ -15,6 +15,8 @@ public class InfoManager : MonoBehaviour
 
     Image exp;
 
+    
+
     void Awake()
     {
         rabbit = player.GetComponent<Rabbit>();
@@ -24,6 +26,9 @@ public class InfoManager : MonoBehaviour
 
     void Start()
     {
+        textList[0].text = rabbit.datas[0];
+        textList[1].text = rabbit.datas[1];
+        textList[2].text = rabbit.datas[2];
         CheckStatus();
     }
 
@@ -43,9 +48,6 @@ public class InfoManager : MonoBehaviour
 
     void CheckStatus()
     {
-        textList[0].text = rabbit.datas[0];
-        textList[1].text = rabbit.datas[1];
-        textList[2].text = rabbit.datas[2];
         textList[3].text = rabbit.lv.ToString();
         textList[4].text = rabbit.exp.ToString();
         textList[5].text = rabbit.maxExp.ToString();
@@ -57,4 +59,6 @@ public class InfoManager : MonoBehaviour
         textList[11].text = rabbit.statis[2].ToString();
         textList[12].text = rabbit.statis[3].ToString();
     }
+
+    
 }

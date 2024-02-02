@@ -10,7 +10,7 @@ public class Rabbit : MonoBehaviour
     public int maxExp = 0;
     public int money = 0;
 
-    public List<int> inventory = new List<int>();
+    public List<(Item, bool)> inventory = new List<(Item, bool)>();
     public int maxInventory = 16;
 
     public int[] statis =  new int[] {35, 40, 100, 25};
@@ -28,7 +28,7 @@ public class Rabbit : MonoBehaviour
         lv = 1;
         exp = 0;
         maxExp = 10;
-        money = 100034587;
+        money = 10000;
         maxInventory = 16;
     }
 

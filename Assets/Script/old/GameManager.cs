@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 {
     public TalkManager talkManager;
     public static GameManager instance = null;
-    public Text name;
+    public Text playername;
     public Text realTime;
     public Text myName;
     public GameObject panel;
@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
         else
         {
             isPanel = false;
-            name.text = nickname;
+            playername.text = nickname;
             myName.text = nickname;
             panel.SetActive(isPanel);
         }

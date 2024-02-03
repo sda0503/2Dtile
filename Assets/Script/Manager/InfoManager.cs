@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class InfoManager : MonoBehaviour
 {
-
-
     public Text[] textList ;
     public GameObject player;
     Rabbit rabbit;
@@ -46,7 +44,7 @@ public class InfoManager : MonoBehaviour
         CheckStatus();
     }
 
-    void CheckStatus()
+    public void CheckStatus()
     {
         textList[3].text = rabbit.lv.ToString();
         textList[4].text = rabbit.exp.ToString();

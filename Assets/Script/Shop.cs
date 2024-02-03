@@ -2,21 +2,24 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using static Item;
 using Random = UnityEngine.Random;
 
 public class Shop : MonoBehaviour
 {
+
     public GameObject itemManager;
     ItemManager itemList;
+    InfoManager infoManager;
     //아이템 리스트
     public GameObject itemListPrefab;
 
     //실제 아이템 프리펨
     public GameObject itemP;
     Item item;
-    Text[] textList = new Text[5];
+    Text[] textList = new Text[6];
     Image[] imageLset = new Image[2];
     List<int> temp = new List<int>();
 
@@ -28,11 +31,23 @@ public class Shop : MonoBehaviour
 
     bool is_renew = true;
 
+    //플레이어 정보
+    public GameObject player;
+    Rabbit rabbit;
+
+    //팝업
+    public GameObject popup;
+
+    Button button;
+
     void Awake()
     {
+        //게임 매니저
         itemList = itemManager.GetComponent<ItemManager>();
+        infoManager = itemManager.GetComponent <InfoManager>();
         item = itemP.GetComponent<Item>();
-       
+        rabbit = player.GetComponent<Rabbit>();
+
     }
 
     // Start is called before the first frame update
@@ -47,7 +62,9 @@ public class Shop : MonoBehaviour
         textList[4] = itemListPrefab.transform.GetChild(2).GetChild(1).GetComponent<Text>();
         imageLset[0] = itemListPrefab.transform.GetChild(4).GetComponent<Image>();
         imageLset[1] = itemListPrefab.transform.GetChild(4).GetChild(0).GetComponent<Image>();
+        button = itemListPrefab.transform.GetChild(2).GetComponent<Button>();
         MakeList();
+        SetList();
     }
 
     void Update()
@@ -76,8 +93,10 @@ public class Shop : MonoBehaviour
                 textList[1] = transform.GetChild(i).gameObject.transform.GetChild(1).GetChild(1).GetComponent<Text>();
                 textList[2] = transform.GetChild(i).gameObject.transform.GetChild(4).GetChild(1).GetComponent<Text>();
                 textList[3] = transform.GetChild(i).gameObject.transform.GetChild(3).GetChild(0).GetComponent<Text>();
+                textList[4] = transform.GetChild(i).gameObject.transform.GetChild(2).GetChild(1).GetComponent<Text>();
                 imageLset[0] = transform.GetChild(i).gameObject.transform.GetChild(4).GetComponent<Image>();
                 imageLset[1] = transform.GetChild(i).gameObject.transform.GetChild(4).GetChild(0).GetComponent<Image>();
+                button = transform.GetChild(i).gameObject.transform.GetChild(2).GetComponent<Button>();
                 int rand = Random.Range(0, itemList.items.Count);
                 while (temp.Contains(rand))
                 {
@@ -90,6 +109,8 @@ public class Shop : MonoBehaviour
                 textList[1].text = itemList.items[rand].desc;
                 textList[2].text = "+" + itemList.items[rand].power.ToString();
                 textList[3].text = GetCommaText(itemList.items[rand].gold);
+                textList[4].text = itemList.items[rand].iNum.ToString();
+                button.onClick.AddListener((BuyItem));
                 ChangeType(rand);
             }
         }
@@ -115,6 +136,7 @@ public class Shop : MonoBehaviour
             textList[2].text = "+" + itemList.items[rand].power.ToString();
             textList[3].text = GetCommaText(itemList.items[rand].gold);
             textList[4].text = itemList.items[rand].iNum.ToString();
+            button.onClick.AddListener((BuyItem));
             itemListPrefab.SetActive(true);
             ChangeType(rand);
             Instantiate(itemListPrefab, new Vector3(x, y, 0), Quaternion.identity, transform);
@@ -164,9 +186,39 @@ public class Shop : MonoBehaviour
         }
     }
 
-    void BuyItem()
+    public void BuyItem()
     {
-
+        GameObject clickObj = EventSystem.current.currentSelectedGameObject;
+        textList[5] = clickObj.transform.GetChild(1).GetComponent<Text>();
+        int index = itemList.items.FindIndex(x => x.iNum == Convert.ToInt32(textList[5].text));
+        if (itemList.items[index].gold <= rabbit.money && rabbit.inventory.Count <= rabbit.maxInventory)
+        {
+            rabbit.money -= itemList.items[index].gold;
+            rabbit.inventory.Add((itemList.items[index], false));
+            infoManager.CheckStatus();
+            PopupSussces();
+            Debug.Log(itemList.items[index].iNum);
+        }
+        else
+        {
+            PopupFail();
+        }
     }
 
+
+    void PopupSussces()
+    {
+        popup.SetActive(true);
+        popup.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = "Purchas";
+        popup.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = "구매하였습니다!";
+        popup.transform.GetChild(1).GetChild(4).gameObject.SetActive(true);
+    }
+
+    void PopupFail()
+    {
+        popup.SetActive(true);
+        popup.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = "Fail";
+        popup.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = "돈이 부족하여 구매 할 수 없습니다.";
+        popup.transform.GetChild(1).GetChild(4).gameObject.SetActive(true);
+    }
 }

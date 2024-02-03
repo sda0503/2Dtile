@@ -20,11 +20,7 @@ public class Item : MonoBehaviour
     public int def;
     public int hp;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        //GetComponent<Image>().sprite = itemImages[iNum];
-    }
+    public bool isEquip = false;
 
     public void SetPow()
     {
@@ -39,6 +35,42 @@ public class Item : MonoBehaviour
         }
     }
 
+    public void OnEquip()
+    {
+        if(isEquip)
+        {
+            isEquip = false;
+            PopupEquipClear();
+            transform.GetChild(1).gameObject.SetActive(false);
+        }
+        else
+        {
+            isEquip = true;
+            PopupEquip();
+            transform.GetChild(1).gameObject.SetActive(true);
+
+        }
+    }
+
+    void PopupEquip()
+    {
+        GameObject popup = GameObject.Find("PopupCanvas");
+        popup.SetActive(true);
+        popup.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = "Equip";
+        popup.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = $"장착하시겠습니까?";
+        popup.transform.GetChild(1).GetChild(2).gameObject.SetActive(true);
+        popup.transform.GetChild(1).GetChild(3).gameObject.SetActive(true);
+    }
+
+    void PopupEquipClear()
+    {
+        GameObject popup = GameObject.Find("PopupCanvas");
+        popup.SetActive(true);
+        popup.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = "Equip";
+        popup.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = "장착해제하시겠습니까?";
+        popup.transform.GetChild(1).GetChild(2).gameObject.SetActive(true);
+        popup.transform.GetChild(1).GetChild(3).gameObject.SetActive(true);
+    }
 
 }
 

@@ -1,5 +1,162 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1287965267750852576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4931021982305414570}
+  - component: {fileID: 7919697691308460765}
+  - component: {fileID: 3611892038319748863}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4931021982305414570
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287965267750852576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9146194368465126254}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7919697691308460765
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287965267750852576}
+  m_CullTransparentMesh: 1
+--- !u!114 &3611892038319748863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287965267750852576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: bb9b67d7a2a66a645b7810d6b428a86f, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: E
+--- !u!1 &1532408205126745988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9146194368465126254}
+  - component: {fileID: 9210743314920417119}
+  - component: {fileID: 1992110753744279428}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &9146194368465126254
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532408205126745988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4931021982305414570}
+  m_Father: {fileID: 1863254611857621202}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0, y: 0}
+--- !u!222 &9210743314920417119
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532408205126745988}
+  m_CullTransparentMesh: 1
+--- !u!114 &1992110753744279428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532408205126745988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6cf6f9b57e7dd584392fb759971d701b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &8933515258938304194
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,54 +169,6 @@ GameObject:
   - component: {fileID: 5095087804447460781}
   - component: {fileID: 3231926156830097130}
   - component: {fileID: 7225626860867001126}
-  - component: {fileID: 918743552562945615}
-  - component: {fileID: -3782533971566802389}
-  - component: {fileID: -4643635643004359874}
-  - component: {fileID: -1291433628868533299}
-  - component: {fileID: -6215147952418183730}
-  - component: {fileID: 5910329867210265624}
-  - component: {fileID: -1135971986180539401}
-  - component: {fileID: 2087275384958502804}
-  - component: {fileID: -337939837478935833}
-  - component: {fileID: 8542657492445752691}
-  - component: {fileID: -5035954424068033810}
-  - component: {fileID: 603839513836449715}
-  - component: {fileID: 6937537710085157989}
-  - component: {fileID: -6556768856506978984}
-  - component: {fileID: -6392388887423817901}
-  - component: {fileID: 3944029889588040148}
-  - component: {fileID: 1887355056146133333}
-  - component: {fileID: 6603872567873916306}
-  - component: {fileID: 5413791402538741082}
-  - component: {fileID: -5706693083951968332}
-  - component: {fileID: -1299860162925786632}
-  - component: {fileID: 2841673292663630938}
-  - component: {fileID: 437616277329631143}
-  - component: {fileID: 5666102267434069595}
-  - component: {fileID: 6526633095954361420}
-  - component: {fileID: -3162418383567313216}
-  - component: {fileID: 2757111356997933931}
-  - component: {fileID: -1385656388744888880}
-  - component: {fileID: 2643370815275522377}
-  - component: {fileID: 9193121490107491801}
-  - component: {fileID: -9047244575735936556}
-  - component: {fileID: 3488762539678625380}
-  - component: {fileID: 4278513136290106651}
-  - component: {fileID: 3593098825536431821}
-  - component: {fileID: -1109238901445991649}
-  - component: {fileID: 896103720702139876}
-  - component: {fileID: -786005786254681963}
-  - component: {fileID: -8636757332391177133}
-  - component: {fileID: 5414805160721794367}
-  - component: {fileID: -106952351945921068}
-  - component: {fileID: -1588902760159111839}
-  - component: {fileID: -6988528135135544201}
-  - component: {fileID: 1732995075376321644}
-  - component: {fileID: -2477862079300795931}
-  - component: {fileID: 9025805081679419406}
-  - component: {fileID: -2302337146284054770}
-  - component: {fileID: -7352085379865421325}
-  - component: {fileID: -1158990466629194960}
   - component: {fileID: 5251237687903917642}
   - component: {fileID: -5937986586505335170}
   - component: {fileID: 4625223211165343310}
@@ -435,7 +544,6 @@ GameObject:
   - component: {fileID: 8076012496236482598}
   - component: {fileID: 1007758157632324831}
   - component: {fileID: 8109021274428841743}
-  - component: {fileID: 564150258098798333}
   - component: {fileID: 4954819182396187830}
   - component: {fileID: 4826950359976933857}
   - component: {fileID: -423874993573722095}
@@ -562,6 +670,29 @@ GameObject:
   - component: {fileID: -6172689204529634811}
   - component: {fileID: -6789137797670689886}
   - component: {fileID: 547097701222266768}
+  - component: {fileID: 294590282574755862}
+  - component: {fileID: 1547474825857216432}
+  - component: {fileID: 6486269180507411344}
+  - component: {fileID: -4562243338067088371}
+  - component: {fileID: 1787318611973792617}
+  - component: {fileID: 7003034267867186044}
+  - component: {fileID: 7059372966563967919}
+  - component: {fileID: -2194065802321036335}
+  - component: {fileID: 8004267059621073909}
+  - component: {fileID: -2742935279175107349}
+  - component: {fileID: 1368648462983177069}
+  - component: {fileID: 1727111252524274591}
+  - component: {fileID: 6615913521576460124}
+  - component: {fileID: 5617449127820367921}
+  - component: {fileID: -7749443833742145410}
+  - component: {fileID: -1812273100635509769}
+  - component: {fileID: 493964208659325087}
+  - component: {fileID: 7028672468131377915}
+  - component: {fileID: 503395021194338186}
+  - component: {fileID: 874491651136187234}
+  - component: {fileID: 5198583545945840056}
+  - component: {fileID: 8955117258139638410}
+  - component: {fileID: -2457388491522673373}
   m_Layer: 5
   m_Name: item
   m_TagString: Untagged
@@ -580,7 +711,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 9146194368465126254}
   m_Father: {fileID: 0}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -818,1101 +950,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
---- !u!114 &918743552562945615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 0
-  itemName: "\uC2F8\uAD6C\uB824 \uC7A5\uAC11"
-  desc: "\uC2F8\uAD6C\uB824 \uCC9C\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC5B4\uB518\uAC00
-    \uB108\uB35C\uB108\uB35C \uD574 \uBCF4\uC778\uB2E4."
-  gold: 10000
-  type: 4
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-3782533971566802389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 1
-  itemName: "\uAC00\uC8FD \uC7A5\uAC11"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC190\uC744 \uBCF4\uD638\uD558\uAE30\uC5D0
-    \uC88B\uC740 \uC7A5\uAC11"
-  gold: 20000
-  type: 4
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-4643635643004359874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 13
-  itemName: "\uC2F8\uAD6C\uB824 \uCC9C\uC2E0\uBC1C"
-  desc: "\uC9C8 \uC548\uC88B\uC740 \uCC9C\uC744 \uBAA8\uC544 \uB9CC\uB4E0 \uC2E0\uBC1C,
-    \uC774\uBB3C\uC9C8\uB85C \uBD80\uD130 \uBCF4\uD638\uD574 \uC8FC\uC9C0\uB9CC \uBC1C\uC774
-    \uC544\uD504\uB2E4."
-  gold: 10000
-  type: 5
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-1291433628868533299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 14
-  itemName: "\uAC00\uC8FD \uC2E0\uBC1C"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC2E0\uBC1C, \uCC29\uC6A9\uAC10\uC774
-    \uC88B\uACE0 \uBC1C\uC774 \uC544\uD504\uC9C0 \uC54A\uB2E4 ."
-  gold: 30000
-  type: 6
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-6215147952418183730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 26
-  itemName: "\uBE44\uC988\uBAA9\uAC78\uC774"
-  desc: "\uBE44\uC988\uB85C \uB9CC\uB4E0 \uBAA9\uAC78\uC774 \uAFB8\uBBF8\uAE30\uC6A9\uC774\uB2E4."
-  gold: 10000
-  type: 6
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &5910329867210265624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 30
-  itemName: "\uC5D0\uBA54\uB784\uB4DC \uBAA9\uAC78\uC774"
-  desc: "\uC5D0\uBA54\uB784\uB4DC\uB97C \uAC00\uACF5\uD558\uC5EC \uB9CC\uB4E0 \uBAA9\uAC78\uC774
-    \uC548\uC88B\uC740 \uAE30\uC6B4\uC744 \uB9C9\uC544\uC900\uB2E4."
-  gold: 50000
-  type: 6
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-1135971986180539401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 44
-  itemName: "1\uCE90\uB7FF \uB2E4\uC774\uC544\uBAAC\uB4DC \uBC18\uC9C0"
-  desc: "\uCCAD\uD63C\uD560 \uB54C \uC0AC\uC6A9\uD558\uAE30 \uC88B\uC740 \uB2E4\uC774\uC544\uBAAC\uB4DC
-    \uBC18\uC9C0"
-  gold: 4380000
-  type: 6
-  power: 20
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &2087275384958502804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 52
-  itemName: "\uB098\uBB34\uBABD\uB465\uC774"
-  desc: "\uB098\uBB34\uB97C \uAE4D\uC544 \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 10000
-  type: 1
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-337939837478935833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 65
-  itemName: "\uCCA0\uBABD\uB465\uC774"
-  desc: "\uCCA0\uC744 \uB2F4\uAE08\uC9C8 \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 100000
-  type: 1
-  power: 15
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &8542657492445752691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 72
-  itemName: "\uD669\uAE08\uBABD\uB465\uC774"
-  desc: "\uD488\uC9C8 \uC88B\uC740 \uCCA0\uC744 \uAC00\uACF5\uD55C\uB4A4 \uB3C4\uAE08
-    \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 10000000
-  type: 1
-  power: 50
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-5035954424068033810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 0
-  itemName: "\uC2F8\uAD6C\uB824 \uC7A5\uAC11"
-  desc: "\uC2F8\uAD6C\uB824 \uCC9C\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC5B4\uB518\uAC00
-    \uB108\uB35C\uB108\uB35C \uD574 \uBCF4\uC778\uB2E4."
-  gold: 10000
-  type: 4
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &603839513836449715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 1
-  itemName: "\uAC00\uC8FD \uC7A5\uAC11"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC190\uC744 \uBCF4\uD638\uD558\uAE30\uC5D0
-    \uC88B\uC740 \uC7A5\uAC11"
-  gold: 20000
-  type: 4
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &6937537710085157989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 13
-  itemName: "\uC2F8\uAD6C\uB824 \uCC9C\uC2E0\uBC1C"
-  desc: "\uC9C8 \uC548\uC88B\uC740 \uCC9C\uC744 \uBAA8\uC544 \uB9CC\uB4E0 \uC2E0\uBC1C,
-    \uC774\uBB3C\uC9C8\uB85C \uBD80\uD130 \uBCF4\uD638\uD574 \uC8FC\uC9C0\uB9CC \uBC1C\uC774
-    \uC544\uD504\uB2E4."
-  gold: 10000
-  type: 5
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-6556768856506978984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 14
-  itemName: "\uAC00\uC8FD \uC2E0\uBC1C"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC2E0\uBC1C, \uCC29\uC6A9\uAC10\uC774
-    \uC88B\uACE0 \uBC1C\uC774 \uC544\uD504\uC9C0 \uC54A\uB2E4 ."
-  gold: 30000
-  type: 6
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-6392388887423817901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 26
-  itemName: "\uBE44\uC988\uBAA9\uAC78\uC774"
-  desc: "\uBE44\uC988\uB85C \uB9CC\uB4E0 \uBAA9\uAC78\uC774 \uAFB8\uBBF8\uAE30\uC6A9\uC774\uB2E4."
-  gold: 10000
-  type: 6
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &3944029889588040148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 30
-  itemName: "\uC5D0\uBA54\uB784\uB4DC \uBAA9\uAC78\uC774"
-  desc: "\uC5D0\uBA54\uB784\uB4DC\uB97C \uAC00\uACF5\uD558\uC5EC \uB9CC\uB4E0 \uBAA9\uAC78\uC774
-    \uC548\uC88B\uC740 \uAE30\uC6B4\uC744 \uB9C9\uC544\uC900\uB2E4."
-  gold: 50000
-  type: 6
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &1887355056146133333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 44
-  itemName: "1\uCE90\uB7FF \uB2E4\uC774\uC544\uBAAC\uB4DC \uBC18\uC9C0"
-  desc: "\uCCAD\uD63C\uD560 \uB54C \uC0AC\uC6A9\uD558\uAE30 \uC88B\uC740 \uB2E4\uC774\uC544\uBAAC\uB4DC
-    \uBC18\uC9C0"
-  gold: 4380000
-  type: 6
-  power: 20
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &6603872567873916306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 52
-  itemName: "\uB098\uBB34\uBABD\uB465\uC774"
-  desc: "\uB098\uBB34\uB97C \uAE4D\uC544 \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 10000
-  type: 1
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &5413791402538741082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 65
-  itemName: "\uCCA0\uBABD\uB465\uC774"
-  desc: "\uCCA0\uC744 \uB2F4\uAE08\uC9C8 \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 100000
-  type: 1
-  power: 15
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-5706693083951968332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 72
-  itemName: "\uD669\uAE08\uBABD\uB465\uC774"
-  desc: "\uD488\uC9C8 \uC88B\uC740 \uCCA0\uC744 \uAC00\uACF5\uD55C\uB4A4 \uB3C4\uAE08
-    \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 10000000
-  type: 1
-  power: 50
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-1299860162925786632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 0
-  itemName: "\uC2F8\uAD6C\uB824 \uC7A5\uAC11"
-  desc: "\uC2F8\uAD6C\uB824 \uCC9C\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC5B4\uB518\uAC00
-    \uB108\uB35C\uB108\uB35C \uD574 \uBCF4\uC778\uB2E4."
-  gold: 10000
-  type: 4
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &2841673292663630938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 1
-  itemName: "\uAC00\uC8FD \uC7A5\uAC11"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC190\uC744 \uBCF4\uD638\uD558\uAE30\uC5D0
-    \uC88B\uC740 \uC7A5\uAC11"
-  gold: 20000
-  type: 4
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &437616277329631143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 13
-  itemName: "\uC2F8\uAD6C\uB824 \uCC9C\uC2E0\uBC1C"
-  desc: "\uC9C8 \uC548\uC88B\uC740 \uCC9C\uC744 \uBAA8\uC544 \uB9CC\uB4E0 \uC2E0\uBC1C,
-    \uC774\uBB3C\uC9C8\uB85C \uBD80\uD130 \uBCF4\uD638\uD574 \uC8FC\uC9C0\uB9CC \uBC1C\uC774
-    \uC544\uD504\uB2E4."
-  gold: 10000
-  type: 5
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &5666102267434069595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 14
-  itemName: "\uAC00\uC8FD \uC2E0\uBC1C"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC2E0\uBC1C, \uCC29\uC6A9\uAC10\uC774
-    \uC88B\uACE0 \uBC1C\uC774 \uC544\uD504\uC9C0 \uC54A\uB2E4 ."
-  gold: 30000
-  type: 6
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &6526633095954361420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 26
-  itemName: "\uBE44\uC988\uBAA9\uAC78\uC774"
-  desc: "\uBE44\uC988\uB85C \uB9CC\uB4E0 \uBAA9\uAC78\uC774 \uAFB8\uBBF8\uAE30\uC6A9\uC774\uB2E4."
-  gold: 10000
-  type: 6
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-3162418383567313216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 30
-  itemName: "\uC5D0\uBA54\uB784\uB4DC \uBAA9\uAC78\uC774"
-  desc: "\uC5D0\uBA54\uB784\uB4DC\uB97C \uAC00\uACF5\uD558\uC5EC \uB9CC\uB4E0 \uBAA9\uAC78\uC774
-    \uC548\uC88B\uC740 \uAE30\uC6B4\uC744 \uB9C9\uC544\uC900\uB2E4."
-  gold: 50000
-  type: 6
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &2757111356997933931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 44
-  itemName: "1\uCE90\uB7FF \uB2E4\uC774\uC544\uBAAC\uB4DC \uBC18\uC9C0"
-  desc: "\uCCAD\uD63C\uD560 \uB54C \uC0AC\uC6A9\uD558\uAE30 \uC88B\uC740 \uB2E4\uC774\uC544\uBAAC\uB4DC
-    \uBC18\uC9C0"
-  gold: 4380000
-  type: 6
-  power: 20
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-1385656388744888880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 52
-  itemName: "\uB098\uBB34\uBABD\uB465\uC774"
-  desc: "\uB098\uBB34\uB97C \uAE4D\uC544 \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 10000
-  type: 1
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &2643370815275522377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 65
-  itemName: "\uCCA0\uBABD\uB465\uC774"
-  desc: "\uCCA0\uC744 \uB2F4\uAE08\uC9C8 \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 100000
-  type: 1
-  power: 15
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &9193121490107491801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 72
-  itemName: "\uD669\uAE08\uBABD\uB465\uC774"
-  desc: "\uD488\uC9C8 \uC88B\uC740 \uCCA0\uC744 \uAC00\uACF5\uD55C\uB4A4 \uB3C4\uAE08
-    \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 10000000
-  type: 1
-  power: 50
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-9047244575735936556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 0
-  itemName: "\uC2F8\uAD6C\uB824 \uC7A5\uAC11"
-  desc: "\uC2F8\uAD6C\uB824 \uCC9C\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC5B4\uB518\uAC00
-    \uB108\uB35C\uB108\uB35C \uD574 \uBCF4\uC778\uB2E4."
-  gold: 10000
-  type: 4
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &3488762539678625380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 1
-  itemName: "\uAC00\uC8FD \uC7A5\uAC11"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC190\uC744 \uBCF4\uD638\uD558\uAE30\uC5D0
-    \uC88B\uC740 \uC7A5\uAC11"
-  gold: 20000
-  type: 4
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &4278513136290106651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 13
-  itemName: "\uC2F8\uAD6C\uB824 \uCC9C\uC2E0\uBC1C"
-  desc: "\uC9C8 \uC548\uC88B\uC740 \uCC9C\uC744 \uBAA8\uC544 \uB9CC\uB4E0 \uC2E0\uBC1C,
-    \uC774\uBB3C\uC9C8\uB85C \uBD80\uD130 \uBCF4\uD638\uD574 \uC8FC\uC9C0\uB9CC \uBC1C\uC774
-    \uC544\uD504\uB2E4."
-  gold: 10000
-  type: 5
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &3593098825536431821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 14
-  itemName: "\uAC00\uC8FD \uC2E0\uBC1C"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC2E0\uBC1C, \uCC29\uC6A9\uAC10\uC774
-    \uC88B\uACE0 \uBC1C\uC774 \uC544\uD504\uC9C0 \uC54A\uB2E4 ."
-  gold: 30000
-  type: 6
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-1109238901445991649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 26
-  itemName: "\uBE44\uC988\uBAA9\uAC78\uC774"
-  desc: "\uBE44\uC988\uB85C \uB9CC\uB4E0 \uBAA9\uAC78\uC774 \uAFB8\uBBF8\uAE30\uC6A9\uC774\uB2E4."
-  gold: 10000
-  type: 6
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &896103720702139876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 30
-  itemName: "\uC5D0\uBA54\uB784\uB4DC \uBAA9\uAC78\uC774"
-  desc: "\uC5D0\uBA54\uB784\uB4DC\uB97C \uAC00\uACF5\uD558\uC5EC \uB9CC\uB4E0 \uBAA9\uAC78\uC774
-    \uC548\uC88B\uC740 \uAE30\uC6B4\uC744 \uB9C9\uC544\uC900\uB2E4."
-  gold: 50000
-  type: 6
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-786005786254681963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 44
-  itemName: "1\uCE90\uB7FF \uB2E4\uC774\uC544\uBAAC\uB4DC \uBC18\uC9C0"
-  desc: "\uCCAD\uD63C\uD560 \uB54C \uC0AC\uC6A9\uD558\uAE30 \uC88B\uC740 \uB2E4\uC774\uC544\uBAAC\uB4DC
-    \uBC18\uC9C0"
-  gold: 4380000
-  type: 6
-  power: 20
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-8636757332391177133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 52
-  itemName: "\uB098\uBB34\uBABD\uB465\uC774"
-  desc: "\uB098\uBB34\uB97C \uAE4D\uC544 \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 10000
-  type: 1
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &5414805160721794367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 65
-  itemName: "\uCCA0\uBABD\uB465\uC774"
-  desc: "\uCCA0\uC744 \uB2F4\uAE08\uC9C8 \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 100000
-  type: 1
-  power: 15
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-106952351945921068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 72
-  itemName: "\uD669\uAE08\uBABD\uB465\uC774"
-  desc: "\uD488\uC9C8 \uC88B\uC740 \uCCA0\uC744 \uAC00\uACF5\uD55C\uB4A4 \uB3C4\uAE08
-    \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 10000000
-  type: 1
-  power: 50
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-1588902760159111839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 0
-  itemName: "\uC2F8\uAD6C\uB824 \uC7A5\uAC11"
-  desc: "\uC2F8\uAD6C\uB824 \uCC9C\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC5B4\uB518\uAC00
-    \uB108\uB35C\uB108\uB35C \uD574 \uBCF4\uC778\uB2E4."
-  gold: 10000
-  type: 4
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-6988528135135544201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 1
-  itemName: "\uAC00\uC8FD \uC7A5\uAC11"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC190\uC744 \uBCF4\uD638\uD558\uAE30\uC5D0
-    \uC88B\uC740 \uC7A5\uAC11"
-  gold: 20000
-  type: 4
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &1732995075376321644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 13
-  itemName: "\uC2F8\uAD6C\uB824 \uCC9C\uC2E0\uBC1C"
-  desc: "\uC9C8 \uC548\uC88B\uC740 \uCC9C\uC744 \uBAA8\uC544 \uB9CC\uB4E0 \uC2E0\uBC1C,
-    \uC774\uBB3C\uC9C8\uB85C \uBD80\uD130 \uBCF4\uD638\uD574 \uC8FC\uC9C0\uB9CC \uBC1C\uC774
-    \uC544\uD504\uB2E4."
-  gold: 10000
-  type: 5
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-2477862079300795931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 14
-  itemName: "\uAC00\uC8FD \uC2E0\uBC1C"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC2E0\uBC1C, \uCC29\uC6A9\uAC10\uC774
-    \uC88B\uACE0 \uBC1C\uC774 \uC544\uD504\uC9C0 \uC54A\uB2E4 ."
-  gold: 30000
-  type: 6
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &9025805081679419406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 26
-  itemName: "\uBE44\uC988\uBAA9\uAC78\uC774"
-  desc: "\uBE44\uC988\uB85C \uB9CC\uB4E0 \uBAA9\uAC78\uC774 \uAFB8\uBBF8\uAE30\uC6A9\uC774\uB2E4."
-  gold: 10000
-  type: 6
-  power: 2
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-2302337146284054770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 36
-  itemName: "\uC5D0\uBA54\uB784\uB4DC \uBAA9\uAC78\uC774"
-  desc: "\uC5D0\uBA54\uB784\uB4DC\uB97C \uAC00\uACF5\uD558\uC5EC \uB9CC\uB4E0 \uBAA9\uAC78\uC774
-    \uC548\uC88B\uC740 \uAE30\uC6B4\uC744 \uB9C9\uC544\uC900\uB2E4."
-  gold: 50000
-  type: 6
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-7352085379865421325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 44
-  itemName: "1\uCE90\uB7FF \uB2E4\uC774\uC544\uBAAC\uB4DC \uBC18\uC9C0"
-  desc: "\uCCAD\uD63C\uD560 \uB54C \uC0AC\uC6A9\uD558\uAE30 \uC88B\uC740 \uB2E4\uC774\uC544\uBAAC\uB4DC
-    \uBC18\uC9C0"
-  gold: 4380000
-  type: 6
-  power: 20
-  atk: 0
-  def: 0
-  hp: 0
---- !u!114 &-1158990466629194960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 52
-  itemName: "\uB098\uBB34\uBABD\uB465\uC774"
-  desc: "\uB098\uBB34\uB97C \uAE4D\uC544 \uB9CC\uB4E0 \uBABD\uB465\uC774"
-  gold: 10000
-  type: 1
-  power: 5
-  atk: 0
-  def: 0
-  hp: 0
+  isEquip: 0
 --- !u!114 &5251237687903917642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1935,6 +973,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5937986586505335170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1958,6 +997,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4625223211165343310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1981,6 +1021,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8695223617296285808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2004,6 +1045,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &305501129759492872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2028,6 +1070,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5764279604209945497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2051,6 +1094,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1340360362904413230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2073,6 +1117,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6698712518438352556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2096,6 +1141,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-992894217645038035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2119,6 +1165,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7786661261736123758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2141,6 +1188,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4133348709123231885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2163,6 +1211,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2513208510246989520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2186,6 +1235,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6386737030211564341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2209,6 +1259,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-740876734178283821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2232,6 +1283,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4426149525246153206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2256,6 +1308,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2425318168470433019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2279,6 +1332,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1151872272246523405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2301,6 +1355,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2935169769446634759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2324,6 +1379,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7894577646935155487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2347,6 +1403,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-538365504673413120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2369,6 +1426,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6743066191962555722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2391,6 +1449,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2462644232667993703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2414,6 +1473,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3840966263200826109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2437,6 +1497,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &751760350385201593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2460,6 +1521,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-9220942885858574859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2484,6 +1546,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &416418078444316191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2507,6 +1570,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6464702654435540862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2529,6 +1593,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2080126009602357363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2552,6 +1617,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8095293697938203108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2575,6 +1641,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5469536682548719378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2597,6 +1664,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-340297985014283359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2619,6 +1687,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3394054992603373789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2642,6 +1711,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8427757807985174482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2665,6 +1735,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6833370726406095713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2688,6 +1759,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1101425837363992270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2712,6 +1784,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3418867337132330386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2735,6 +1808,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3356180107931714127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2757,6 +1831,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &9018528227716020852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2780,6 +1855,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5612775530980251348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2803,6 +1879,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8024867806656809661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2825,6 +1902,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3829127233512961029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2847,6 +1925,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6784658280118719040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2870,6 +1949,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4292813665577245901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2893,6 +1973,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7847667750450592489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2916,6 +1997,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8553697027192538406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2940,6 +2022,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5118815055721307372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2963,6 +2046,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5176873347912130977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2985,6 +2069,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8121501613608311974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3008,6 +2093,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &735635816135180661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3031,6 +2117,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8748129336113214743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3053,6 +2140,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8792980521983504352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3075,6 +2163,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6048130741323666788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3098,6 +2187,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7982120454067872581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3121,6 +2211,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &910509397187678364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3144,6 +2235,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2915772807849875923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3168,6 +2260,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7711468049198008229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3191,6 +2284,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2036331055617038965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3213,6 +2307,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1213662579047182671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3236,6 +2331,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1283842925170382499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3259,6 +2355,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2218921938929018181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3281,6 +2378,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8698520711820875373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3303,6 +2401,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5105942797419444627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3326,6 +2425,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4680303107785733538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3349,6 +2449,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8458813877039404462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3372,6 +2473,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3149513256516754328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3396,6 +2498,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8787062975521270801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3419,6 +2522,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-622956177636638206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3441,6 +2545,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6012271676005380989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3464,6 +2569,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1005616582888809574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3487,6 +2593,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1715816130402319112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3509,6 +2616,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1646348424470872081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3531,6 +2639,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1025866401458031929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3554,6 +2663,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-957417795485616572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3577,6 +2687,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1851172428789462926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3600,6 +2711,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2233263375333598227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3624,6 +2736,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5746711935867667958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3647,6 +2760,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &633229423888830144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3669,6 +2783,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2315408529536538541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3692,6 +2807,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6789394845292370662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3715,6 +2831,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &743102429817793239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3737,6 +2854,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1689950322477550730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3759,6 +2877,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8082109808478176168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3782,6 +2901,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8708322586277293031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3805,6 +2925,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-667068401754434664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3828,6 +2949,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8463491746304242573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3852,6 +2974,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-801394103129090505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3875,6 +2998,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6259299440613728078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3897,6 +3021,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7524377627599144554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3920,6 +3045,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7256663221465532782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3943,6 +3069,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &824344456325663500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3965,6 +3092,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4653276818783992678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3987,6 +3115,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2444690457013477904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4010,6 +3139,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2706392139495549859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4033,6 +3163,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7228425077319452224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4056,6 +3187,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-414157130268867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4080,6 +3212,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1311633583169681999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4103,6 +3236,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1824068650343382065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4125,6 +3259,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-139952202718755045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4148,6 +3283,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4423178029867831180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4171,6 +3307,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1670789591096021155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4193,6 +3330,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &9172638480190920403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4215,6 +3353,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7045912674586168126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4238,6 +3377,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6639266795093627741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4261,6 +3401,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2324860689640086413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4284,6 +3425,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7812424787948864486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4308,6 +3450,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2718989362065894335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4331,6 +3474,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6301854736147252666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4353,6 +3497,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1655558582873384639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4376,6 +3521,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4460864380211513374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4399,6 +3545,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-727436051298014057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4421,6 +3568,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-442753145994378313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4443,6 +3591,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2337096237676884033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4466,6 +3615,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3041710190621602633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4489,6 +3639,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6935765234696976747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4512,6 +3663,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5877128853210294586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4536,6 +3688,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &78735981597763730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4559,6 +3712,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &562588375040778524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4581,6 +3735,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7157050086211572889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4604,6 +3759,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3882726320486141702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4627,6 +3783,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6684044898985843379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4649,6 +3806,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6691761858024436454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4671,6 +3829,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1144506738651186085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4694,6 +3853,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8340415464244041939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4717,6 +3877,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5678753803923712520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4740,6 +3901,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6462288114206999451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4764,6 +3926,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2240706256744722406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4787,6 +3950,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6469790690493670901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4809,6 +3973,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6500097758102459834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4832,6 +3997,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7092707024501486815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4855,6 +4021,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2234432197711830777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4877,6 +4044,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1421664145704003588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4899,6 +4067,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8870092695760143242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4922,6 +4091,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5812018263917732759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4945,6 +4115,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6077636963697431474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4968,6 +4139,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3104389718350021996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4992,6 +4164,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5075734218310286900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5015,6 +4188,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5264050383357853834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5037,6 +4211,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2973339438717261185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5060,6 +4235,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1100482015942236941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5083,6 +4259,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2091518161671239991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5105,6 +4282,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1096600931684478290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5127,6 +4305,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5012199045509347955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5150,6 +4329,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-441382895933478926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5173,6 +4353,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2779877182781628856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5196,6 +4377,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6664049663329414503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5220,6 +4402,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1944187282759845588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5243,6 +4426,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3029439244836403213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5265,6 +4449,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7521787633799177458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5288,6 +4473,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2823447005816201056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5311,6 +4497,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7947389879576322556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5333,6 +4520,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4457353051898463812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5355,6 +4543,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1371885255368882871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5378,6 +4567,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6272869081978518929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5401,6 +4591,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1526078549116605421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5424,6 +4615,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3626556376918962213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5448,6 +4640,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4825809677969758591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5471,6 +4664,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1824454629146558282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5493,6 +4687,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6575710212526337981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5516,6 +4711,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5442092869472288644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5539,6 +4735,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4932481446119077394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5561,6 +4758,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3931016622889686300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5583,6 +4781,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5999933208780703601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5606,6 +4805,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6124947953028211193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5629,6 +4829,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8485623718976415921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5652,6 +4853,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1324442365148781166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5676,6 +4878,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4311793594309320122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5699,6 +4902,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8295381373897734204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5721,6 +4925,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7659745272091160097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5744,6 +4949,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7210032289821188363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5767,6 +4973,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7153139311285768066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5789,6 +4996,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4156754936810491934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5811,6 +5019,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6884501080489421679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5834,6 +5043,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7819428203147826923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5857,6 +5067,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &9050829911946992822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5880,6 +5091,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5375864295679746014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5904,6 +5116,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8645936577612487947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5927,6 +5140,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5541927948814004609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5949,6 +5163,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2680716284313279141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5972,6 +5187,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-792492322029311093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5995,6 +5211,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2231425514780923365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6017,6 +5234,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-828612405131398168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6039,6 +5257,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1302290731090714720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6062,6 +5281,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6489769878929553599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6085,6 +5305,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4055235363341712269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6108,6 +5329,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5015721290617564127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6132,6 +5354,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6210230019657887707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6155,6 +5378,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2789176704392097277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6177,6 +5401,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2173446206856057579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6200,6 +5425,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5798899323326731715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6223,6 +5449,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8206336409671537312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6245,6 +5472,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1320156445229651400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6267,6 +5495,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4464772942627114143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6290,6 +5519,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3411424240492944618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6313,6 +5543,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7749426338546140216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6336,6 +5567,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7696403999130826784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6360,6 +5592,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-981482853552290722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6383,6 +5616,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6827106988374287446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6405,6 +5639,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3884710856317010820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6428,6 +5663,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4517661226646364704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6451,6 +5687,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8731243552196079376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6473,6 +5710,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2261378613494713590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6495,6 +5733,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4653436817391772534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6518,6 +5757,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4194372306839919546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6541,6 +5781,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4527901866994225820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6564,6 +5805,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8445455692467698511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6588,6 +5830,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8745139716217654351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6611,6 +5854,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4515306483645157126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6633,6 +5877,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3341997340773878405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6656,6 +5901,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8763397382203298200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6679,6 +5925,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5555867347590778656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6701,6 +5948,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8897143606544375908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6723,6 +5971,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7937665451728542127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6746,6 +5995,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3659917941771362671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6769,6 +6019,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5496764299215773157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6792,6 +6043,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2352913632931287138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6816,6 +6068,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6544070980027875285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6839,6 +6092,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6332999800138365141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6861,6 +6115,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-27005146551668329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6884,6 +6139,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3341058657118398438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6907,6 +6163,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7702752922905390545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6929,6 +6186,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1678484298236456606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6951,6 +6209,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2652062298212803647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6974,6 +6233,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4407648225131856932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6997,6 +6257,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5689022103672402274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7020,6 +6281,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8855140339826279575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7044,6 +6306,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4717277512376877355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7067,6 +6330,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4532490527630709369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7089,6 +6353,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6613284707647747454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7112,6 +6377,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4087960387667859923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7135,6 +6401,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6766236655183153308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7157,6 +6424,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1237248646531639025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7179,6 +6447,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1885822372484573583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7202,6 +6471,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3352086491900532084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7225,6 +6495,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7315360356226208134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7248,6 +6519,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1261213436623705116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7272,6 +6544,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4091278224390664573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7295,6 +6568,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-278202892141397244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7317,6 +6591,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2370377459629647632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7340,6 +6615,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3933468375766237173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7363,6 +6639,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7691833900845130696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7385,6 +6662,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2617509236877517802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7407,6 +6685,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4020261155741891814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7430,6 +6709,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3984717527880105191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7453,6 +6733,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2127846635644368800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7476,6 +6757,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6222440818589236517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7500,6 +6782,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3686962608134210643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7523,6 +6806,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2060553591141629599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7545,6 +6829,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3896183934460686349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7568,6 +6853,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8024860891626019440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7591,6 +6877,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3821980988063637063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7613,6 +6900,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6413249381636947117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7635,6 +6923,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3722247200330965822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7658,6 +6947,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5285517249995873426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7681,6 +6971,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3408535925039489929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7704,6 +6995,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6819659143100453977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7728,6 +7020,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-345655750907883568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7751,6 +7044,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1290771090357681064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7773,6 +7067,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5306140777696229454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7796,6 +7091,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3533080955737240674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7819,6 +7115,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7229828944607240030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7841,6 +7138,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3650552298817806429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7863,6 +7161,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &179109215528459399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7886,6 +7185,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &633698992772559984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7909,6 +7209,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4874834912575954454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7932,6 +7233,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7642982616868735428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7956,6 +7258,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8107123865350450194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7979,6 +7282,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4513378652625365669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8001,6 +7305,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-651579487274387833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8024,6 +7329,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &202774080601198631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8047,6 +7353,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1128935670633627089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8069,6 +7376,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6431570481472543356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8091,6 +7399,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6923684625391550692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8114,6 +7423,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5270340723988419736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8137,6 +7447,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3773558493319605027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8160,6 +7471,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &650042554557507808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8184,6 +7496,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-798496124128634849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8207,6 +7520,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6055925282522661549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8229,6 +7543,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3064073760139057849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8252,6 +7567,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4072519582689641765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8275,6 +7591,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3126669935020611196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8297,6 +7614,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3792377751286971325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8319,6 +7637,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-207018264582861094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8342,6 +7661,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8834425714323193982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8365,6 +7685,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2579502622571429877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8388,6 +7709,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4898102778080664185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8412,6 +7734,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5322359019017875460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8435,6 +7758,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2222044783149157424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8457,6 +7781,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2791654879881516325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8480,6 +7805,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4582224224691297916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8503,6 +7829,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3585782636124981104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8525,6 +7852,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6957606634611538281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8547,6 +7875,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7102113299226150537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8570,6 +7899,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2880320888973815769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8593,6 +7923,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1459523040521896671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8616,6 +7947,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6416076945761659003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8640,6 +7972,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7827115540126762929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8663,6 +7996,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6363207915522338954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8685,6 +8019,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8813960137053941821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8708,6 +8043,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3187733875253069117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8731,6 +8067,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-388113038966568915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8753,6 +8090,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8235982015909749511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8775,6 +8113,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3963522281839797631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8798,6 +8137,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7765878088250552132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8821,6 +8161,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8640026679200779249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8844,6 +8185,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4251975463164440463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8868,6 +8210,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7945130682931089285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8891,6 +8234,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2106693682605916758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8913,6 +8257,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4564392669964533548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8936,6 +8281,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7853450837236349289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8959,6 +8305,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8280212415113085452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8981,6 +8328,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2832404211420431731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9003,6 +8351,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3038322935807334196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9026,6 +8375,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6359210481710407712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9049,6 +8399,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5811562022348104022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9072,6 +8423,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2281285874609567154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9096,6 +8448,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-9036178467833706731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9119,6 +8472,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7464427670819258660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9141,6 +8495,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4087511464150379981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9164,6 +8519,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1692908950970495108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9187,6 +8543,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7657878128827712736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9209,6 +8566,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5366543516588388361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9231,6 +8589,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4231320824291476986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9254,6 +8613,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-703079341110440623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9277,6 +8637,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1888646841009483082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9300,6 +8661,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6448248763879488389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9324,6 +8686,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5845803516600684299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9347,6 +8710,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2551779823566766340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9369,6 +8733,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3704295301274684553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9392,6 +8757,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3962130048892261642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9415,6 +8781,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3862813528141773703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9437,6 +8804,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3517774425552769649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9459,6 +8827,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6242899273212475007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9482,6 +8851,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4660399228609327212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9505,6 +8875,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2803529113888678637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9528,6 +8899,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-327749013239722183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9552,6 +8924,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6965658827824992533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9575,6 +8948,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7407727785400180359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9597,6 +8971,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8568185546215715285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9620,6 +8995,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6132532041990928378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9643,6 +9019,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4225115640776135375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9665,6 +9042,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1213625854882705415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9687,6 +9065,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1459569322753538711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9710,6 +9089,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6526631227335689042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9733,6 +9113,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8163574910480935513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9756,6 +9137,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3825721294410604668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9780,6 +9162,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8784950794283441209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9803,6 +9186,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &990359290249607546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9825,6 +9209,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6260401291714072542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9848,6 +9233,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5837720634153648207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9871,6 +9257,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3097440032698852804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9893,6 +9280,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4223010423415981533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9915,6 +9303,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2485488264815490337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9938,6 +9327,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5439600689280386068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9961,6 +9351,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6525424446114409518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9984,6 +9375,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6213712756449917126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10008,6 +9400,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2822758706564402897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10031,6 +9424,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8734281116768507143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10053,6 +9447,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6279070002947295473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10076,6 +9471,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7655298875824003777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10099,6 +9495,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7327865012707017489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10121,6 +9518,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2470928973359592265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10143,6 +9541,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2682507166353731578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10166,6 +9565,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6047800993978705498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10189,6 +9589,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6908076901845425748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10212,6 +9613,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1897136435810267840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10236,6 +9638,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2558079433371745880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10259,6 +9662,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1124950975526682648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10281,6 +9685,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1324990996930683530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10304,6 +9709,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6639739446958539219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10327,6 +9733,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6505354256870805545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10349,6 +9756,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2063226428627989465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10371,6 +9779,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2881288491052087658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10394,6 +9803,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8076012496236482598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10417,6 +9827,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1007758157632324831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10440,6 +9851,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8109021274428841743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10464,29 +9876,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
---- !u!114 &564150258098798333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933515258938304194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImages: []
-  iNum: 14
-  itemName: "\uAC00\uC8FD \uC2E0\uBC1C"
-  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC2E0\uBC1C, \uCC29\uC6A9\uAC10\uC774
-    \uC88B\uACE0 \uBC1C\uC774 \uC544\uD504\uC9C0 \uC54A\uB2E4 ."
-  gold: 30000
-  type: 5
-  power: 4
-  atk: 0
-  def: 0
-  hp: 0
+  isEquip: 0
 --- !u!114 &4954819182396187830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10509,6 +9899,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4826950359976933857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10532,6 +9923,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-423874993573722095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10555,6 +9947,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1974804334149894339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10577,6 +9970,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7676236383432620624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10599,6 +9993,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7969705546933874094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10622,6 +10017,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8929573083962667231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10645,6 +10041,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7117353818679673670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10668,6 +10065,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4920021583353455783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10692,6 +10090,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1741929475189928041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10715,6 +10114,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1506387301456703861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10737,6 +10137,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5298906443776172389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10760,6 +10161,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6156790787254715265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10783,6 +10185,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-943330184192179782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10805,6 +10208,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2116456418102372603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10827,6 +10231,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5198086759680440386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10850,6 +10255,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6982113028539531732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10873,6 +10279,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1723990981560801817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10896,6 +10303,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6774372564528569810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10920,6 +10328,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2534886394923908881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10943,6 +10352,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6644649437469649786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10965,6 +10375,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5767785291773613397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10988,6 +10399,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7428517368828224540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11011,6 +10423,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &79510404934259141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11033,6 +10446,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3563180767723560550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11055,6 +10469,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &205184616804129862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11078,6 +10493,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &6032858652380208872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11101,6 +10517,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6338243745848743996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11124,6 +10541,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-266719848005567802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11148,6 +10566,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2889103777526937319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11171,6 +10590,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8681455203871622638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11193,6 +10613,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3438706134805738132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11216,6 +10637,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2577823664551856826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11239,6 +10661,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &270917347163832299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11261,6 +10684,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2948439294011204493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11283,6 +10707,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5774496267716224310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11306,6 +10731,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1835679310229786491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11329,6 +10755,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8575530031506002795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11352,6 +10779,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4248384634478922603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11376,6 +10804,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1995974022690892527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11399,6 +10828,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3424898765945831210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11421,6 +10851,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5672095706031470711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11444,6 +10875,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2054766238751246998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11467,6 +10899,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3414622756767908255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11489,6 +10922,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7778101869727933514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11511,6 +10945,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3380537462807496607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11534,6 +10969,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3349933609737424922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11557,6 +10993,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3336746578764288857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11580,6 +11017,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1199496128457452144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11604,6 +11042,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8784595159856261805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11627,6 +11066,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4888664038101219729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11649,6 +11089,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2915885403604426356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11672,6 +11113,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1763683710067214033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11695,6 +11137,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2043561854210369784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11717,6 +11160,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &662182892531624916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11739,6 +11183,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4424568406611609591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11762,6 +11207,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5876151294184728946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11785,6 +11231,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4794529876109635189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11808,6 +11255,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6940745081632233747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11832,6 +11280,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3820119033807966496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11855,6 +11304,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4297970098307286457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11877,6 +11327,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3618020282351238324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11900,6 +11351,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3818644112541412118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11923,6 +11375,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-9187644607986789957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11945,6 +11398,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5845519898058308115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11967,6 +11421,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2055748367878877373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11990,6 +11445,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &72244247057154554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12013,6 +11469,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3010625582653189167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12036,6 +11493,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6929751166660213845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12060,6 +11518,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7036181653592281917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12083,6 +11542,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5999775646864036171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12105,6 +11565,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8535350784297521595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12128,6 +11589,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1580340358287438613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12151,6 +11613,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7885377833116408171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12173,6 +11636,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8061957683274037765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12195,6 +11659,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7227878820035498999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12218,6 +11683,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8354648187448282171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12241,6 +11707,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7554543196614902116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12264,6 +11731,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1648582468585074877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12288,6 +11756,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7750298294629967422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12311,6 +11780,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4594584623984714146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12333,6 +11803,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4391539942226285462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12356,6 +11827,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1867800555688626498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12379,6 +11851,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-9160869538145366241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12401,6 +11874,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4195464173965694414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12423,6 +11897,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5123054712040713265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12446,6 +11921,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1287182944507058696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12469,6 +11945,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2528411836801038364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12492,6 +11969,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5766126840957223261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12516,6 +11994,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4564040241821696802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12539,6 +12018,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &3425598416035143126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12561,6 +12041,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &8720338308112364490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12584,6 +12065,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2906319666343854515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12607,6 +12089,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4581452114627495286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12629,6 +12112,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-613838087660222733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12651,6 +12135,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-5502560369121107931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12674,6 +12159,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-2788572684835917639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12697,6 +12183,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6233069458109707959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12720,6 +12207,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1520690267943889228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12744,6 +12232,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7332106328100026976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12767,6 +12256,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7574225248010686375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12789,6 +12279,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5946892561289319224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12812,6 +12303,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-7157184173072636731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12835,6 +12327,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6787708704022695671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12857,6 +12350,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1043495755758324529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12879,6 +12373,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1076408910501786559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12902,6 +12397,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8730245928594316462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12925,6 +12421,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-1721666400407153190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12948,6 +12445,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &5200996501387446998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12972,6 +12470,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4924800697203823754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12995,6 +12494,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1487569583724041285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13017,6 +12517,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &1207160511754586577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13040,6 +12541,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2327634243117358645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13063,6 +12565,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &4919349005802200644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13085,6 +12588,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8075195116124593745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13107,6 +12611,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2057814364365759868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13130,6 +12635,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-3273267248353629674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13153,6 +12659,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-4680575500077937652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13176,6 +12683,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8208427418720654040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13200,6 +12708,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &2012000052623901689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13223,6 +12732,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-8793690046466388213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13245,6 +12755,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &643848769088578744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13268,6 +12779,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &7048497001108022059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13291,6 +12803,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6172689204529634811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13313,6 +12826,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &-6789137797670689886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13335,6 +12849,7 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
 --- !u!114 &547097701222266768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13358,3 +12873,551 @@ MonoBehaviour:
   atk: 0
   def: 0
   hp: 0
+  isEquip: 0
+--- !u!114 &294590282574755862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 0
+  itemName: "\uC2F8\uAD6C\uB824 \uC7A5\uAC11"
+  desc: "\uC2F8\uAD6C\uB824 \uCC9C\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC5B4\uB518\uAC00
+    \uB108\uB35C\uB108\uB35C \uD574 \uBCF4\uC778\uB2E4."
+  gold: 10000
+  type: 4
+  power: 2
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &1547474825857216432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 1
+  itemName: "\uAC00\uC8FD \uC7A5\uAC11"
+  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC190\uC744 \uBCF4\uD638\uD558\uAE30\uC5D0
+    \uC88B\uC740 \uC7A5\uAC11"
+  gold: 20000
+  type: 4
+  power: 4
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &6486269180507411344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 13
+  itemName: "\uC2F8\uAD6C\uB824 \uCC9C\uC2E0\uBC1C"
+  desc: "\uC9C8 \uC548\uC88B\uC740 \uCC9C\uC744 \uBAA8\uC544 \uB9CC\uB4E0 \uC2E0\uBC1C,
+    \uC774\uBB3C\uC9C8\uB85C \uBD80\uD130 \uBCF4\uD638\uD574 \uC8FC\uC9C0\uB9CC \uBC1C\uC774
+    \uC544\uD504\uB2E4."
+  gold: 10000
+  type: 5
+  power: 2
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &-4562243338067088371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 14
+  itemName: "\uAC00\uC8FD \uC2E0\uBC1C"
+  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC2E0\uBC1C, \uCC29\uC6A9\uAC10\uC774
+    \uC88B\uACE0 \uBC1C\uC774 \uC544\uD504\uC9C0 \uC54A\uB2E4 ."
+  gold: 30000
+  type: 5
+  power: 4
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &1787318611973792617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 26
+  itemName: "\uBE44\uC988\uBAA9\uAC78\uC774"
+  desc: "\uBE44\uC988\uB85C \uB9CC\uB4E0 \uBAA9\uAC78\uC774 \uAFB8\uBBF8\uAE30\uC6A9\uC774\uB2E4."
+  gold: 10000
+  type: 6
+  power: 2
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &7003034267867186044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 36
+  itemName: "\uC5D0\uBA54\uB784\uB4DC \uBAA9\uAC78\uC774"
+  desc: "\uC5D0\uBA54\uB784\uB4DC\uB97C \uAC00\uACF5\uD558\uC5EC \uB9CC\uB4E0 \uBAA9\uAC78\uC774
+    \uC548\uC88B\uC740 \uAE30\uC6B4\uC744 \uB9C9\uC544\uC900\uB2E4."
+  gold: 50000
+  type: 6
+  power: 5
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &7059372966563967919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 41
+  itemName: "1\uCE90\uB7FF \uB2E4\uC774\uC544\uBAAC\uB4DC \uBC18\uC9C0"
+  desc: "\uCCAD\uD63C\uD560 \uB54C \uC0AC\uC6A9\uD558\uAE30 \uC88B\uC740 \uB2E4\uC774\uC544\uBAAC\uB4DC
+    \uBC18\uC9C0"
+  gold: 4380000
+  type: 6
+  power: 20
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &-2194065802321036335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 48
+  itemName: "\uB098\uBB34\uBABD\uB465\uC774"
+  desc: "\uB098\uBB34\uB97C \uAE4D\uC544 \uB9CC\uB4E0 \uBABD\uB465\uC774"
+  gold: 10000
+  type: 1
+  power: 5
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &8004267059621073909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 60
+  itemName: "\uCCA0\uBABD\uB465\uC774"
+  desc: "\uCCA0\uC744 \uB2F4\uAE08\uC9C8 \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
+  gold: 100000
+  type: 1
+  power: 15
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &-2742935279175107349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 79
+  itemName: "\uD669\uAE08\uBABD\uB465\uC774"
+  desc: "\uD488\uC9C8 \uC88B\uC740 \uCCA0\uC744 \uAC00\uACF5\uD55C\uB4A4 \uB3C4\uAE08
+    \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
+  gold: 10000000
+  type: 1
+  power: 50
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &1368648462983177069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 0
+  itemName: "\uC2F8\uAD6C\uB824 \uC7A5\uAC11"
+  desc: "\uC2F8\uAD6C\uB824 \uCC9C\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC5B4\uB518\uAC00
+    \uB108\uB35C\uB108\uB35C \uD574 \uBCF4\uC778\uB2E4."
+  gold: 10000
+  type: 4
+  power: 2
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &1727111252524274591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 1
+  itemName: "\uAC00\uC8FD \uC7A5\uAC11"
+  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC190\uC744 \uBCF4\uD638\uD558\uAE30\uC5D0
+    \uC88B\uC740 \uC7A5\uAC11"
+  gold: 20000
+  type: 4
+  power: 4
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &6615913521576460124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 13
+  itemName: "\uC2F8\uAD6C\uB824 \uCC9C\uC2E0\uBC1C"
+  desc: "\uC9C8 \uC548\uC88B\uC740 \uCC9C\uC744 \uBAA8\uC544 \uB9CC\uB4E0 \uC2E0\uBC1C,
+    \uC774\uBB3C\uC9C8\uB85C \uBD80\uD130 \uBCF4\uD638\uD574 \uC8FC\uC9C0\uB9CC \uBC1C\uC774
+    \uC544\uD504\uB2E4."
+  gold: 10000
+  type: 5
+  power: 2
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &5617449127820367921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 14
+  itemName: "\uAC00\uC8FD \uC2E0\uBC1C"
+  desc: "\uAC00\uC8FD\uC73C\uB85C \uB9CC\uB4E0 \uC2E0\uBC1C, \uCC29\uC6A9\uAC10\uC774
+    \uC88B\uACE0 \uBC1C\uC774 \uC544\uD504\uC9C0 \uC54A\uB2E4 ."
+  gold: 30000
+  type: 5
+  power: 4
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &-7749443833742145410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 26
+  itemName: "\uBE44\uC988\uBAA9\uAC78\uC774"
+  desc: "\uBE44\uC988\uB85C \uB9CC\uB4E0 \uBAA9\uAC78\uC774 \uAFB8\uBBF8\uAE30\uC6A9\uC774\uB2E4."
+  gold: 10000
+  type: 6
+  power: 2
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &-1812273100635509769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 36
+  itemName: "\uC5D0\uBA54\uB784\uB4DC \uBAA9\uAC78\uC774"
+  desc: "\uC5D0\uBA54\uB784\uB4DC\uB97C \uAC00\uACF5\uD558\uC5EC \uB9CC\uB4E0 \uBAA9\uAC78\uC774
+    \uC548\uC88B\uC740 \uAE30\uC6B4\uC744 \uB9C9\uC544\uC900\uB2E4."
+  gold: 50000
+  type: 6
+  power: 5
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &493964208659325087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 79
+  itemName: "\uD669\uAE08\uBABD\uB465\uC774"
+  desc: "\uD488\uC9C8 \uC88B\uC740 \uCCA0\uC744 \uAC00\uACF5\uD55C\uB4A4 \uB3C4\uAE08
+    \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
+  gold: 10000000
+  type: 1
+  power: 50
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &7028672468131377915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 0
+  itemName: "\uC2F8\uAD6C\uB824 \uC7A5\uAC11"
+  desc: "\uC2F8\uAD6C\uB824 \uCC9C\uC73C\uB85C \uB9CC\uB4E0 \uC7A5\uAC11, \uC5B4\uB518\uAC00
+    \uB108\uB35C\uB108\uB35C \uD574 \uBCF4\uC778\uB2E4."
+  gold: 10000
+  type: 4
+  power: 2
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &503395021194338186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 26
+  itemName: "\uBE44\uC988\uBAA9\uAC78\uC774"
+  desc: "\uBE44\uC988\uB85C \uB9CC\uB4E0 \uBAA9\uAC78\uC774 \uAFB8\uBBF8\uAE30\uC6A9\uC774\uB2E4."
+  gold: 10000
+  type: 6
+  power: 2
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &874491651136187234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 36
+  itemName: "\uC5D0\uBA54\uB784\uB4DC \uBAA9\uAC78\uC774"
+  desc: "\uC5D0\uBA54\uB784\uB4DC\uB97C \uAC00\uACF5\uD558\uC5EC \uB9CC\uB4E0 \uBAA9\uAC78\uC774
+    \uC548\uC88B\uC740 \uAE30\uC6B4\uC744 \uB9C9\uC544\uC900\uB2E4."
+  gold: 50000
+  type: 6
+  power: 5
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &5198583545945840056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 41
+  itemName: "1\uCE90\uB7FF \uB2E4\uC774\uC544\uBAAC\uB4DC \uBC18\uC9C0"
+  desc: "\uCCAD\uD63C\uD560 \uB54C \uC0AC\uC6A9\uD558\uAE30 \uC88B\uC740 \uB2E4\uC774\uC544\uBAAC\uB4DC
+    \uBC18\uC9C0"
+  gold: 4380000
+  type: 6
+  power: 20
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &8955117258139638410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 48
+  itemName: "\uB098\uBB34\uBABD\uB465\uC774"
+  desc: "\uB098\uBB34\uB97C \uAE4D\uC544 \uB9CC\uB4E0 \uBABD\uB465\uC774"
+  gold: 10000
+  type: 1
+  power: 5
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0
+--- !u!114 &-2457388491522673373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515258938304194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78651622b5fb77f40a721d7e4c60c670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages: []
+  iNum: 60
+  itemName: "\uCCA0\uBABD\uB465\uC774"
+  desc: "\uCCA0\uC744 \uB2F4\uAE08\uC9C8 \uD558\uC5EC \uB9CC\uB4E0 \uBABD\uB465\uC774"
+  gold: 100000
+  type: 1
+  power: 15
+  atk: 0
+  def: 0
+  hp: 0
+  isEquip: 0

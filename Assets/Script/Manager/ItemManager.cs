@@ -27,7 +27,7 @@ public class ItemManager : MonoBehaviour
 
     void AddItemList(int index, string name, string desc, int gold, ItemType itemType, int pow)
     {
-        Item item = itemIndex.AddComponent<Item>();
+        Item item = itemIndex.GetComponent<Item>();
         item.iNum = index;
         item.itemName = name;
         item.desc = desc;

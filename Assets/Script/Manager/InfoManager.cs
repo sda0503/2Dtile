@@ -13,10 +13,11 @@ public class InfoManager : MonoBehaviour
 
     Image exp;
 
-    
+    public static InfoManager instance;
 
     void Awake()
     {
+        instance = this;
         rabbit = player.GetComponent<Rabbit>();
         exp = expImage.GetComponent<Image>();
     }

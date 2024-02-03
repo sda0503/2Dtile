@@ -191,13 +191,17 @@ public class Shop : MonoBehaviour
         GameObject clickObj = EventSystem.current.currentSelectedGameObject;
         textList[5] = clickObj.transform.GetChild(1).GetComponent<Text>();
         int index = itemList.items.FindIndex(x => x.iNum == Convert.ToInt32(textList[5].text));
-        if (itemList.items[index].gold <= rabbit.money && rabbit.inventory.Count <= rabbit.maxInventory)
+        
+        if(rabbit.inventory.Count == rabbit.maxInventory)
+        {
+            PopupFullInventory();
+        }
+        else if (itemList.items[index].gold <= rabbit.money)
         {
             rabbit.money -= itemList.items[index].gold;
             rabbit.inventory.Add((itemList.items[index], false));
             infoManager.CheckStatus();
             PopupSussces();
-            Debug.Log(itemList.items[index].iNum);
         }
         else
         {
@@ -218,7 +222,15 @@ public class Shop : MonoBehaviour
     {
         popup.SetActive(true);
         popup.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = "Fail";
-        popup.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = "돈이 부족하여 구매 할 수 없습니다.";
+        popup.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = "돈이 부족하여 \n구매 할 수 없습니다.";
+        popup.transform.GetChild(1).GetChild(4).gameObject.SetActive(true);
+    }
+
+    void PopupFullInventory()
+    {
+        popup.SetActive(true);
+        popup.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = "Fail";
+        popup.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = "가방이 가득 차서 \n더 이상 구매 할 수 없습니다.";
         popup.transform.GetChild(1).GetChild(4).gameObject.SetActive(true);
     }
 }

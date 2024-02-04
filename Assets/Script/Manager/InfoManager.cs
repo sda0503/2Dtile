@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class InfoManager : MonoBehaviour
 {
     public Text[] textList ;
@@ -50,13 +51,15 @@ public class InfoManager : MonoBehaviour
         textList[3].text = rabbit.lv.ToString();
         textList[4].text = rabbit.exp.ToString();
         textList[5].text = rabbit.maxExp.ToString();
-        textList[6].text = GetCommaText(rabbit.money);
+        textList[6].text = rabbit.money == 0 ? "0" : GetCommaText(rabbit.money);
         textList[7].text = rabbit.inventory.Count.ToString();
         textList[8].text = rabbit.maxInventory.ToString();
         textList[9].text = rabbit.statis[0].ToString();
         textList[10].text = rabbit.statis[1].ToString();
         textList[11].text = rabbit.statis[2].ToString();
         textList[12].text = rabbit.statis[3].ToString();
+        textList[13].text = rabbit.bankMoney == 0 ? "0" : GetCommaText(rabbit.bankMoney);
+        textList[14].text = rabbit.money == 0 ? "0" : GetCommaText(rabbit.money);
     }
 
     

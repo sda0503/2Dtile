@@ -146,7 +146,6 @@ public class Inventory : MonoBehaviour
             //클릭한거랑 타입이 같은 아이템에만 작동
             if (clickObj.GetComponent<Item>().type == transform.GetChild(x).GetComponent<Item>().type)
             {
-                
                 transform.GetChild(x).GetComponent<Item>().isEquip = false;
                 transform.GetChild(x).GetChild(0).gameObject.SetActive(false);
                 clickObj.GetComponent<Item>().isEquip = ft;

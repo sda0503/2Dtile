@@ -10,6 +10,8 @@ public class Rabbit : MonoBehaviour
     public int maxExp = 0;
     public int money = 0;
 
+    public int bankMoney = 0;
+
     public List<(Item, bool)> inventory = new List<(Item, bool)>();
     public int maxInventory = 16;
 
@@ -30,9 +32,10 @@ public class Rabbit : MonoBehaviour
         maxExp = 10;
         money = 10000;
         maxInventory = 16;
+        bankMoney = 0;
     }
 
-     void Update()
+void Update()
     {
         mousePos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
 

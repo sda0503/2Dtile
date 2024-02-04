@@ -87,24 +87,24 @@ public class Shop : MonoBehaviour
         { 
             is_renew = false;
             temp.Clear();
-            for (int i = 3; i < 7; i++)
+            for (int i = 0; i < 4; i++)
             {
-                textList[0] = transform.GetChild(i).gameObject.transform.GetChild(1).GetChild(0).GetComponent<Text>();
-                textList[1] = transform.GetChild(i).gameObject.transform.GetChild(1).GetChild(1).GetComponent<Text>();
-                textList[2] = transform.GetChild(i).gameObject.transform.GetChild(4).GetChild(1).GetComponent<Text>();
-                textList[3] = transform.GetChild(i).gameObject.transform.GetChild(3).GetChild(0).GetComponent<Text>();
-                textList[4] = transform.GetChild(i).gameObject.transform.GetChild(2).GetChild(1).GetComponent<Text>();
-                imageLset[0] = transform.GetChild(i).gameObject.transform.GetChild(4).GetComponent<Image>();
-                imageLset[1] = transform.GetChild(i).gameObject.transform.GetChild(4).GetChild(0).GetComponent<Image>();
-                button = transform.GetChild(i).gameObject.transform.GetChild(2).GetComponent<Button>();
+                textList[0] = transform.GetChild(3).transform.GetChild(i).gameObject.transform.GetChild(1).GetChild(0).GetComponent<Text>();
+                textList[1] = transform.GetChild(3).transform.GetChild(i).gameObject.transform.GetChild(1).GetChild(1).GetComponent<Text>();
+                textList[2] = transform.GetChild(3).transform.GetChild(i).gameObject.transform.GetChild(4).GetChild(1).GetComponent<Text>();
+                textList[3] = transform.GetChild(3).transform.GetChild(i).gameObject.transform.GetChild(3).GetChild(0).GetComponent<Text>();
+                textList[4] = transform.GetChild(3).transform.GetChild(i).gameObject.transform.GetChild(2).GetChild(1).GetComponent<Text>();
+                imageLset[0] = transform.GetChild(3).transform.GetChild(i).gameObject.transform.GetChild(4).GetComponent<Image>();
+                imageLset[1] = transform.GetChild(3).transform.GetChild(i).gameObject.transform.GetChild(4).GetChild(0).GetComponent<Image>();
+                button = transform.GetChild(3).transform.GetChild(i).gameObject.transform.GetChild(2).GetComponent<Button>();
                 int rand = Random.Range(0, itemList.items.Count);
                 while (temp.Contains(rand))
                 {
                     rand = Random.Range(0, itemList.items.Count);
                 }
                 temp.Add(rand);
-                transform.GetChild(i).gameObject.SetActive(true);
-                transform.GetChild(i).gameObject.transform.GetChild(0).GetComponent<Image>().sprite = item.itemImages[itemList.items[rand].iNum];
+                transform.GetChild(3).transform.GetChild(i).gameObject.SetActive(true);
+                transform.GetChild(3).transform.GetChild(i).gameObject.transform.GetChild(0).GetComponent<Image>().sprite = item.itemImages[itemList.items[rand].iNum];
                 textList[0].text = itemList.items[rand].itemName;
                 textList[1].text = itemList.items[rand].desc;
                 textList[2].text = "+" + itemList.items[rand].power.ToString();
@@ -139,7 +139,7 @@ public class Shop : MonoBehaviour
             button.onClick.AddListener((BuyItem));
             itemListPrefab.SetActive(true);
             ChangeType(rand);
-            Instantiate(itemListPrefab, new Vector3(x, y, 0), Quaternion.identity, transform);
+            Instantiate(itemListPrefab, new Vector3(x, y, 0), Quaternion.identity, transform.GetChild(3));
         }
     }
 

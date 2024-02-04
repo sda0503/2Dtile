@@ -169,9 +169,9 @@ public class Shop : MonoBehaviour
                 textList[2].color = new Color(44 / 255f, 170 / 255f, 250 / 255f);
                 break;
             case ItemType.ARMORHAND:
-                imageLset[0].sprite = images[0];
-                imageLset[1].sprite = images[3];
-                textList[2].color = new Color(44 / 255f, 170 / 255f, 250 / 255f);
+                imageLset[0].sprite = images[2];
+                imageLset[1].sprite = images[6];
+                textList[2].color = new Color(204 / 255f, 71 / 255f, 78 / 255f);
                 break;
             case ItemType.ARMORFOOT:
                 imageLset[0].sprite = images[0];

@@ -62,6 +62,15 @@ public class Inventory : MonoBehaviour
             transform.GetChild(x).GetComponent<Item>().desc = rabbit.inventory[i].Item1.desc;
             transform.GetChild(x).GetComponent<Item>().type = rabbit.inventory[i].Item1.type;
             transform.GetChild(x).GetComponent<Item>().power = rabbit.inventory[i].Item1.power;
+            switch (transform.GetChild(x).GetComponent<Item>().type)
+            {
+                case ItemType.WEAPON: transform.GetChild(x).GetComponent<Item>().atk = transform.GetChild(x).GetComponent<Item>().power; break;
+                case ItemType.ARMORBODY: transform.GetChild(x).GetComponent<Item>().def = transform.GetChild(x).GetComponent<Item>().power; break;
+                case ItemType.ARMORHEAD: transform.GetChild(x).GetComponent<Item>().def = transform.GetChild(x).GetComponent<Item>().power; break;
+                case ItemType.ARMORHAND: transform.GetChild(x).GetComponent<Item>().cri = transform.GetChild(x).GetComponent<Item>().power; break;
+                case ItemType.ARMORFOOT: transform.GetChild(x).GetComponent<Item>().def = transform.GetChild(x).GetComponent<Item>().power; break;
+                case ItemType.ACCESSORY: transform.GetChild(x).GetComponent<Item>().hp = transform.GetChild(x).GetComponent<Item>().power; break;
+            }
         }
     }
 
@@ -103,62 +112,62 @@ public class Inventory : MonoBehaviour
         if (clickObj.GetComponent<Item>().isEquip)
         {
             CheckEquip(false);
-            SetPow(false);
-            clickObj.GetComponent<Item>().isEquip = false;
             clickObj.transform.GetChild(0).gameObject.SetActive(false);
         }
         else
         {
-            clickObj.GetComponent<Item>().isEquip = true;
             CheckEquip(true);
-            SetPow(true);
             clickObj.transform.GetChild(0).gameObject.SetActive(true);
         }
     }
 
     void CheckEquip(bool ft)
     {
-        //중복 체크 이어서 하기
+        //중복 체크 체크 끄기
         for (int i = 0; i < rabbit.inventory.Count; i++)
         {
-            if (clickObj.GetComponent<Item>().type == rabbit.inventory[i].Item1.type)
+            int x = i + 21;
+            if (transform.GetChild(x).GetComponent<Item>() != clickObj.GetComponent<Item>())
             {
-                rabbit.inventory[i].Item1.isEquip = false;
-                
+                if(transform.GetChild(x).GetComponent<Item>().isEquip)
+                {
+                    //타입에 따라 값을 먼저 빼줌
+                    switch (transform.GetChild(x).GetComponent<Item>().type)
+                    {
+                        case ItemType.WEAPON: rabbit.statis[0] -= transform.GetChild(x).GetComponent<Item>().atk; break;
+                        case ItemType.ARMORBODY: rabbit.statis[1] -= transform.GetChild(x).GetComponent<Item>().def; break;
+                        case ItemType.ARMORHEAD: rabbit.statis[1] -= transform.GetChild(x).GetComponent<Item>().def; break;
+                        case ItemType.ARMORHAND: rabbit.statis[3] -= transform.GetChild(x).GetComponent<Item>().cri; break;
+                        case ItemType.ARMORFOOT: rabbit.statis[1] -= transform.GetChild(x).GetComponent<Item>().def; break;
+                        case ItemType.ACCESSORY: rabbit.statis[2] -= transform.GetChild(x).GetComponent<Item>().hp; break;
+                    }
+                }
             }
+            //클릭한거랑 타입이 같은 아이템에만 작동
+            if (clickObj.GetComponent<Item>().type == transform.GetChild(x).GetComponent<Item>().type)
+            {
+                
+                transform.GetChild(x).GetComponent<Item>().isEquip = false;
+                transform.GetChild(x).GetChild(0).gameObject.SetActive(false);
+                clickObj.GetComponent<Item>().isEquip = ft;
+            }
+            
         }
+  
+         switch (clickObj.GetComponent<Item>().type)
+         {
+             case ItemType.WEAPON: rabbit.statis[0] += ft ? clickObj.GetComponent<Item>().atk : -clickObj.GetComponent<Item>().atk; break;
+             case ItemType.ARMORBODY: rabbit.statis[1] += ft ?clickObj.GetComponent<Item>().def :-clickObj.GetComponent<Item>().def; break;
+             case ItemType.ARMORHEAD: rabbit.statis[1] += ft ?clickObj.GetComponent<Item>().def :-clickObj.GetComponent<Item>().def; break;
+             case ItemType.ARMORHAND: rabbit.statis[3] += ft ?clickObj.GetComponent<Item>().cri :-clickObj.GetComponent<Item>().cri; break;
+             case ItemType.ARMORFOOT: rabbit.statis[1] += ft ?clickObj.GetComponent<Item>().def :-clickObj.GetComponent<Item>().def; break;
+             case ItemType.ACCESSORY: rabbit.statis[2] += ft ? clickObj.GetComponent<Item>().hp :-clickObj.GetComponent<Item>().hp; break;
+         }
 
-        switch (clickObj.GetComponent<Item>().type)
-        {
-            case ItemType.WEAPON: rabbit.equipItems[0] = ft; break;
-            case ItemType.ARMORBODY: rabbit.equipItems[1] = ft; break;
-            case ItemType.ARMORHEAD: rabbit.equipItems[2] = ft; break;
-            case ItemType.ARMORHAND: rabbit.equipItems[3] = ft; break;
-            case ItemType.ARMORFOOT: rabbit.equipItems[4] = ft; break;
-            case ItemType.ACCESSORY: rabbit.equipItems[5] = ft; break;
-        }
-        transform.GetChild(0).gameObject.SetActive(ft);
-
-        
-
-    }
-
-
-    public void SetPow(bool ft)
-    {
-        switch (clickObj.GetComponent<Item>().type)
-        {
-            case ItemType.WEAPON: clickObj.GetComponent<Item>().atk = clickObj.GetComponent<Item>().power; break;
-            case ItemType.ARMORBODY: clickObj.GetComponent<Item>().def = clickObj.GetComponent<Item>().power; break;
-            case ItemType.ARMORHEAD: clickObj.GetComponent<Item>().def = clickObj.GetComponent<Item>().power; break;
-            case ItemType.ARMORHAND: clickObj.GetComponent<Item>().cri = clickObj.GetComponent<Item>().power; break;
-            case ItemType.ARMORFOOT: clickObj.GetComponent<Item>().def = clickObj.GetComponent<Item>().power; break;
-            case ItemType.ACCESSORY: clickObj.GetComponent<Item>().hp = clickObj.GetComponent<Item>().power; break;
-        }
-        rabbit.statis[0] += ft ? clickObj.GetComponent<Item>().atk : -clickObj.GetComponent<Item>().atk;
-        rabbit.statis[1] += ft ? clickObj.GetComponent<Item>().def : -clickObj.GetComponent<Item>().def;
-        rabbit.statis[2] += ft ? clickObj.GetComponent<Item>().hp : -clickObj.GetComponent<Item>().hp;
-        rabbit.statis[3] += ft ? clickObj.GetComponent<Item>().cri : -clickObj.GetComponent<Item>().cri;
         InfoManager.instance.CheckStatus();
+
+
+        clickObj.transform.GetChild(0).gameObject.SetActive(ft);
+        
     }
 }

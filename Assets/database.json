@@ -1,0 +1,43 @@
+{
+    "stringData": [
+        "귀염토끼",
+        "토뱅이",
+        "스스로 귀엽다 생각하고 있는 토끼"
+    ],
+    "intData": [
+        3,
+        26,
+        30,
+        4000,
+        0,
+        16
+    ],
+    "inventoryData": [
+        {
+            "instanceID": -95704
+        },
+        {
+            "instanceID": -95680
+        }
+    ],
+    "itemInum": [
+        34,
+        1
+    ],
+    "itemPower": [
+        5,
+        4
+    ],
+    "itemtype": [
+        6,
+        4
+    ],
+    "itemEquip": [
+        true,
+        false
+    ],
+    "itemName": [
+        "에메랄드 목걸이",
+        "가죽 장갑"
+    ]
+}

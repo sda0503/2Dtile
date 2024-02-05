@@ -12,13 +12,11 @@ public class Rabbit : MonoBehaviour
 
     public int bankMoney = 0;
 
-    public List<(Item, bool)> inventory = new List<(Item, bool)>();
+    public List<Item> inventory = new List<Item>();
     public int maxInventory = 16;
 
     public int[] statis =  new int[] {35, 40, 100, 25};
     
-    public bool[] equipItems = new bool[] {false, false , false , false , false, false };
-
     Vector3 mousePos;
 
     // Start is called before the first frame update

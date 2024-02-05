@@ -199,7 +199,7 @@ public class Shop : MonoBehaviour
         else if (itemList.items[index].gold <= rabbit.money)
         {
             rabbit.money -= itemList.items[index].gold;
-            rabbit.inventory.Add((itemList.items[index], false));
+            rabbit.inventory.Add((itemList.items[index]));
             infoManager.CheckStatus();
             PopupSussces();
         }

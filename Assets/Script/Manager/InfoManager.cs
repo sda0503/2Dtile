@@ -14,7 +14,10 @@ public class InfoManager : MonoBehaviour
 
     Image exp;
 
+    public List<UserData> usr = new List<UserData>();
+
     public static InfoManager instance;
+
 
     void Awake()
     {
@@ -42,7 +45,6 @@ public class InfoManager : MonoBehaviour
         rabbit.money += rabbit.lv * 1000;
         rabbit.exp += 2;
         rabbit.CheckPlayerStatus();
-        exp.fillAmount = (float)rabbit.exp / (float)rabbit.maxExp;
         CheckStatus();
     }
 
@@ -60,6 +62,7 @@ public class InfoManager : MonoBehaviour
         textList[12].text = rabbit.statis[3].ToString();
         textList[13].text = rabbit.bankMoney == 0 ? "0" : GetCommaText(rabbit.bankMoney);
         textList[14].text = rabbit.money == 0 ? "0" : GetCommaText(rabbit.money);
+        exp.fillAmount = (float)rabbit.exp / (float)rabbit.maxExp;
     }
 
     

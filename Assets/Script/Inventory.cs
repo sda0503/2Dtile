@@ -56,12 +56,13 @@ public class Inventory : MonoBehaviour
             transform.GetChild(x).gameObject.SetActive(true);
             itemClick = transform.GetChild(x).GetComponent<Button>();
             itemClick.onClick.AddListener((OnEquip));
-            transform.GetChild(x).GetComponent<Image>().sprite = item.itemImages[rabbit.inventory[i].Item1.iNum];
-            transform.GetChild(x).GetComponent<Item>().iNum = rabbit.inventory[i].Item1.iNum;
-            transform.GetChild(x).GetComponent<Item>().itemName = rabbit.inventory[i].Item1.itemName;
-            transform.GetChild(x).GetComponent<Item>().desc = rabbit.inventory[i].Item1.desc;
-            transform.GetChild(x).GetComponent<Item>().type = rabbit.inventory[i].Item1.type;
-            transform.GetChild(x).GetComponent<Item>().power = rabbit.inventory[i].Item1.power;
+            transform.GetChild(x).GetComponent<Image>().sprite = item.itemImages[rabbit.inventory[i].iNum];
+            transform.GetChild(x).GetComponent<Item>().iNum = rabbit.inventory[i].iNum;
+            transform.GetChild(x).GetComponent<Item>().itemName = rabbit.inventory[i].itemName;
+            transform.GetChild(x).GetComponent<Item>().desc = rabbit.inventory[i].desc;
+            transform.GetChild(x).GetComponent<Item>().type = rabbit.inventory[i].type;
+            transform.GetChild(x).GetComponent<Item>().power = rabbit.inventory[i].power;
+            transform.GetChild(x).GetComponent<Item>().isEquip = rabbit.inventory[i].isEquip;
             switch (transform.GetChild(x).GetComponent<Item>().type)
             {
                 case ItemType.WEAPON: transform.GetChild(x).GetComponent<Item>().atk = transform.GetChild(x).GetComponent<Item>().power; break;
@@ -70,6 +71,20 @@ public class Inventory : MonoBehaviour
                 case ItemType.ARMORHAND: transform.GetChild(x).GetComponent<Item>().cri = transform.GetChild(x).GetComponent<Item>().power; break;
                 case ItemType.ARMORFOOT: transform.GetChild(x).GetComponent<Item>().def = transform.GetChild(x).GetComponent<Item>().power; break;
                 case ItemType.ACCESSORY: transform.GetChild(x).GetComponent<Item>().hp = transform.GetChild(x).GetComponent<Item>().power; break;
+            }
+            if(transform.GetChild(x).GetComponent<Item>().isEquip)
+            {
+                transform.GetChild(x).GetChild(0).gameObject.SetActive(true);
+                switch (transform.GetChild(x).GetComponent<Item>().type)
+                {
+                    case ItemType.WEAPON: rabbit.statis[0] += transform.GetChild(x).GetComponent<Item>().atk; break;
+                    case ItemType.ARMORBODY: rabbit.statis[1] += transform.GetChild(x).GetComponent<Item>().def; break;
+                    case ItemType.ARMORHEAD: rabbit.statis[1] += transform.GetChild(x).GetComponent<Item>().def; break;
+                    case ItemType.ARMORHAND: rabbit.statis[3] += transform.GetChild(x).GetComponent<Item>().cri; break;
+                    case ItemType.ARMORFOOT: rabbit.statis[1] += transform.GetChild(x).GetComponent<Item>().def; break;
+                    case ItemType.ACCESSORY: rabbit.statis[2] += transform.GetChild(x).GetComponent<Item>().hp; break;
+                }
+                InfoManager.instance.CheckStatus();
             }
         }
     }
@@ -147,8 +162,10 @@ public class Inventory : MonoBehaviour
             if (clickObj.GetComponent<Item>().type == transform.GetChild(x).GetComponent<Item>().type)
             {
                 transform.GetChild(x).GetComponent<Item>().isEquip = false;
+                rabbit.inventory[i].isEquip = false;
                 transform.GetChild(x).GetChild(0).gameObject.SetActive(false);
                 clickObj.GetComponent<Item>().isEquip = ft;
+                rabbit.inventory[i].isEquip = ft;
             }
             
         }

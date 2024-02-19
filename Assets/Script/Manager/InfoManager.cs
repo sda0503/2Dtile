@@ -14,7 +14,7 @@ public class InfoManager : MonoBehaviour
 
     Image exp;
 
-    public List<UserData> usr = new List<UserData>();
+    public List<UserData> userDate = new List<UserData>();
 
     public static InfoManager instance;
 
